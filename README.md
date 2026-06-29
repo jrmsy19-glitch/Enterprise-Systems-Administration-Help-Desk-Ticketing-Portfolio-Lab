@@ -115,15 +115,9 @@ All support interactions were captured, prioritized, and tracked through to succ
 * **Evidence:**
 
 ---
-
-
-![Uploading Screenshot 2026-06-28 at 1.02.09 PM.png…]()
-
-
-
-  ![Local Network Adapter Diagnostic Check](images/Screenshot%202026-06-28%20at%201.02.09%20PM.jpg)
-  ![ICMP Gateway Echo Routing Verification Passes](images/Screenshot%202026-06-28%20at%201.02.44%20PM.jpg)
-  ![DNS Name Resolution Testing Via Nslookup](images/Screenshot%202026-06-28%20at%201.03.11%20PM.jpg)
+<img width="977" height="513" alt="Screenshot 2026-06-28 at 1 02 09 PM" src="https://github.com/user-attachments/assets/240d0e73-3f48-4092-83a1-dd1125f09146" />
+<img width="977" height="520" alt="Screenshot 2026-06-28 at 1 02 44 PM" src="https://github.com/user-attachments/assets/d5c1bc0a-a962-44e6-9100-2b3b688b6a58" />
+<img width="977" height="517" alt="Screenshot 2026-06-28 at 1 03 11 PM" src="https://github.com/user-attachments/assets/f2f94d7f-b9c0-48d6-b37e-40a70f35f9ff" />
 
 ---
 
