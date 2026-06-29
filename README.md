@@ -58,14 +58,17 @@ All support interactions were captured, prioritized, and tracked through to succ
 * **Incident:** Management requested a uniform desktop workspace environment applied across all connected endpoints within the domain scope.
 * **Resolution:** Created and deployed an Active Directory Group Policy Object named `Mandatory School Wallpaper`. Managed the policy layout to force a path to a locked local asset resource and linked the policy definition directly to the `School-Root` domain node to enforce absolute downward inheritance compliance.
 * **Evidence:**
-  ![Configuring Desktop Wallpaper Policies](images/Screenshot%202026-06-25%20at%207.45.00%20PM.jpg)
-  ![Linking Group Policy Object to Root Domain](images/Screenshot%202026-06-25%20at%207.46.19%20PM.jpg)
+
+<img width="791" height="637" alt="Screenshot 2026-06-25 at 7 45 00 PM" src="https://github.com/user-attachments/assets/828c1cf7-e849-4276-a9e5-ac67020cdbc8" />
+
+<img width="750" height="527" alt="Screenshot 2026-06-25 at 7 46 19 PM" src="https://github.com/user-attachments/assets/0dc2ed89-8f49-4bdc-ae7e-50b5ef96b154" />
 
 #### Ticket 13: Automated Drive Mapping via Group Policy Preferences (GPP)
 * **Incident:** Library staff requested persistent, automated client-side access to shared organizational document collections without needing manual file path entries.
 * **Resolution:** Leveraged Group Policy Preferences (GPP) inside the management console to configure a server-side drive mapping deployment action. Instructed endpoints to automatically map the corporate resource path `\\school-dc-2022\Library-S...` to local client drive letter `L:`.
 * **Evidence:**
-  ![Configuring Mapped Drives via GPP](images/Screenshot%202026-06-25%20at%207.57.12%20PM_2.jpg)
+
+<img width="1287" height="566" alt="Screenshot 2026-06-25 at 7 57 12 PM" src="https://github.com/user-attachments/assets/591e2359-65e6-4f5b-8eef-3728dc244768" />
 
 ---
 
@@ -75,14 +78,14 @@ All support interactions were captured, prioritized, and tracked through to succ
 * **Incident:** Users reported that print jobs sent to the library hardware terminal were hanging indefinitely and failing to execute.
 * **Resolution:** Isolated the breakdown to a local driver stall event within the printer control subsystem. Cleared the backlogged payload arrays and manually cycled the queue state away from a `Paused` state, returning the subsystem to a nominal, responsive state.
 * **Evidence:**
-  ![Remediating Paused Print Spooler States](images/Screenshot%202026-06-25%20at%208.15.50%20PM.jpg)
 
+<img width="1123" height="595" alt="Screenshot 2026-06-25 at 8 15 50 PM" src="https://github.com/user-attachments/assets/9bd94f58-c53c-498b-9b87-e4e641a8a8ae" />
 #### Ticket 15: Local System Integrity Diagnostics
 * **Incident:** End-user reported erratic device performance and software crashes during daily desktop operations.
 * **Resolution:** Remotely executed the Windows System File Checker (`sfc /scannow`) utility through PowerShell 7 to audit core binary structures against baseline image maps. Verified that the operating system root storage tree was clear of corrupted code blocks.
 * **Evidence:**
-  ![System File Checker Verification Output](images/Screenshot%202026-06-28%20at%2012.44.42%20PM.jpg)
 
+<img width="977" height="515" alt="Screenshot 2026-06-28 at 12 44 42 PM" src="https://github.com/user-attachments/assets/63e942e7-8425-4d75-a8a9-41d21c55278d" />
 ---
 
 ### 🔒 4. Secure Network Storage & Role-Based Access Control (RBAC)
@@ -93,8 +96,10 @@ All support interactions were captured, prioritized, and tracked through to succ
   1. Provisioned a server-side SMB share container endpoint named `HR-Private` directly on the local domain controller volume path (`C:\HR-Private`).
   2. Maintained tight data control boundaries by auditing user object security attributes. Verified that personnel access rights (such as user Tamron Williams) were strictly derived through explicit security group inheritance nested inside the `HR Staff` directory container.
 * **Evidence:**
-  ![SMB Share Volume Path Deployment](images/Screenshot%202026-06-28%20at%2012.55.12%20PM.jpg)
-  ![Verifying Security Group Inheritance Compliance](images/Screenshot%202026-06-28%20at%201.00.24%20PM.jpg)
+
+<img width="1213" height="656" alt="Screenshot 2026-06-28 at 12 55 12 PM" src="https://github.com/user-attachments/assets/57ca848e-33c1-47ca-a8a4-c60013e0eb10" />
+
+<img width="852" height="539" alt="Screenshot 2026-06-28 at 1 00 24 PM" src="https://github.com/user-attachments/assets/8ee357f2-4cfb-4c93-a6cc-3b5566d896ef" />
 
 ---
 
