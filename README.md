@@ -35,7 +35,9 @@ All support interactions were captured, prioritized, and tracked through to succ
 * **Incident:** User requested a directory name adjustment to comply with newly modified internal payroll data formatting.
 * **Resolution:** Modified the account object string variables directly inside the active directory directory tree. Aligned display traits and adjusted the primary User Logon Name prefix to `lmartinez` to adhere to corporate conventions.
 * **Evidence:**
-  ![AD DS User Object Update](images/Screenshot%202026-06-25%20at%207.37.27%20PM.jpg)
+
+  <img width="868" height="533" alt="Screenshot 2026-06-25 at 7 37 27 PM" src="https://github.com/user-attachments/assets/6670e293-fdaf-45de-9e37-8d454238fdbd" />
+
 
 #### Ticket 12: Temporary Staff Onboarding & Account Expiration Lifecycle
 * **Incident:** HR submitted an incoming request to provision a temporary profile (`Sub Teacher`) for a short-term contractor requiring environment access.
@@ -43,8 +45,10 @@ All support interactions were captured, prioritized, and tracked through to succ
   1. Provisioned a constrained user object container (`steacher@school.local`) within the target `Staff` Organizational Unit (OU). Enforced a mandatory password reset phase upon initial environment entry.
   2. Applied an explicit identity termination flag directly inside the object's properties window, scheduling an immutable expiration constraint for Friday, August 21, 2026, to neutralize dormant account threats.
 * **Evidence:**
-  ![Provisioning New Directory Account](images/Screenshot%202026-06-25%20at%207.38.40%20PM.jpg)
-  ![Enforcing Identity Expiration Constraints](images/Screenshot%202026-06-25%20at%207.47.46%20PM.jpg)
+
+<img width="844" height="534" alt="Screenshot 2026-06-25 at 7 38 40 PM" src="https://github.com/user-attachments/assets/de513dcb-514e-4c42-b673-93dfd0d8b5e1" />
+
+<img width="755" height="536" alt="Screenshot 2026-06-25 at 7 47 46 PM" src="https://github.com/user-attachments/assets/e4e4e8d1-2f3b-471b-9411-42a8512b6cad" />
 
 ---
 
