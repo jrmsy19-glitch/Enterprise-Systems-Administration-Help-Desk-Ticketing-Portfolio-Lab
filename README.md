@@ -20,7 +20,9 @@ Throughout this project, I acted as the sole Tier 1/2 IT Support Specialist and 
 ## 📊 The Central Dashboard: Spiceworks ITSM Environment
 All support interactions were captured, prioritized, and tracked through to successful remediation within Spiceworks.
 
-![Spiceworks Closed Ticket Queue](images/Screenshot%202026-06-29%20at%2011.14.23%20AM.jpg)
+## Spiceworks Closed Ticket Queue
+
+<img width="1149" height="759" alt="Screenshot 2026-06-29 at 11 14 23 AM" src="https://github.com/user-attachments/assets/1e55a4c1-1aa7-47b5-92d0-fd790ab6c44a" />
 *Figure 1: Complete audit history of the 13 resolved support lines.*
 
 ---
